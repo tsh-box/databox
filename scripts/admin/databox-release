@@ -16,10 +16,10 @@ then
 fi
 
 function release {
-  docker pull databoxsystems/ghr:0.1.2
+  docker pull databoxsystems2/ghr:0.1.2
   docker run \
          --net=host -ti --rm -v "$(pwd -P)/config.json":/config.json -w / \
-         $DARGS databoxsystems/ghr "$@"
+         $DARGS databoxsystems2/ghr "$@"
 }
 
 release $@
