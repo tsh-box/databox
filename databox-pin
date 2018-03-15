@@ -74,7 +74,7 @@ del_entry() {
     read -n1 ANS
     check_y $ANS
 
-    ORIGIN="https://github.com/me-box/${COMPONENT_NAME}"
+    ORIGIN="https://github.com/tsh2/${COMPONENT_NAME}"
     BRANCH="master"
     update_file $DATABOX_CONFIG_FILE $COMPONENT_NAME "$COMPONENT_NAME $ORIGIN $BRANCH"
 
