@@ -27,20 +27,20 @@ seed () {
     docker tag $2 $1
 }
 
-seed $1/driver-os-monitor databoxsystems/driver-os-monitor
-seed $1/driver-twitter databoxsystems/driver-twitter
-seed $1/driver-sensingkit databoxsystems/driver-sensingkit
-seed $1/app-light-graph databoxsystems/app-light-graph
-seed $1/arbiter:${DBOX_VER} databoxsystems/arbiter:${DBOX_VER}
-seed $1/container-manager:${DBOX_VER} databoxsystems/container-manager:${DBOX_VER}
-seed $1/export-service:${DBOX_VER} databoxsystems/export-service:${DBOX_VER}
-seed $1/app-server databoxsystems/app-server
-seed $1/driver-google-takeout databoxsystems/driver-google-takeout
-seed $1/app-twitter-sentiment databoxsystems/app-twitter-sentiment
-seed $1/base-image-ocaml databoxsystems/base-image-ocaml
-seed $1/driver-phillips-hue databoxsystems/driver-phillips-hue
-seed $1/app-os-monitor databoxsystems/app-os-monitor
-seed $1/driver-tplink-smart-plug databoxsystems/driver-tplink-smart-plug
+seed $1/driver-os-monitor databoxsystems2/driver-os-monitor
+seed $1/driver-twitter databoxsystems2/driver-twitter
+seed $1/driver-sensingkit databoxsystems2/driver-sensingkit
+seed $1/app-light-graph databoxsystems2/app-light-graph
+seed $1/arbiter:${DBOX_VER} databoxsystems2/arbiter:${DBOX_VER}
+seed $1/container-manager:${DBOX_VER} databoxsystems2/container-manager:${DBOX_VER}
+seed $1/export-service:${DBOX_VER} databoxsystems2/export-service:${DBOX_VER}
+seed $1/app-server databoxsystems2/app-server
+seed $1/driver-google-takeout databoxsystems2/driver-google-takeout
+seed $1/app-twitter-sentiment databoxsystems2/app-twitter-sentiment
+seed $1/base-image-ocaml databoxsystems2/base-image-ocaml
+seed $1/driver-phillips-hue databoxsystems2/driver-phillips-hue
+seed $1/app-os-monitor databoxsystems2/app-os-monitor
+seed $1/driver-tplink-smart-plug databoxsystems2/driver-tplink-smart-plug
 seed $1/node:alpine node:alpine
 
 seed $1/databox-redis tlodge/databox-redis
