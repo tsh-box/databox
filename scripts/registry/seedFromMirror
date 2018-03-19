@@ -31,9 +31,9 @@ seed $1/driver-os-monitor databoxsystems2/driver-os-monitor
 seed $1/driver-twitter databoxsystems2/driver-twitter
 seed $1/driver-sensingkit databoxsystems2/driver-sensingkit
 seed $1/app-light-graph databoxsystems2/app-light-graph
-seed $1/arbiter:${DBOX_VER} databoxsystems2/arbiter:${DBOX_VER}
-seed $1/container-manager:${DBOX_VER} databoxsystems2/container-manager:${DBOX_VER}
-seed $1/export-service:${DBOX_VER} databoxsystems2/export-service:${DBOX_VER}
+seed $1/arbiter databoxsystems2/arbiter:
+seed $1/container-manager databoxsystems2/container-manager
+seed $1/export-service databoxsystems2/export-service
 seed $1/app-server databoxsystems2/app-server
 seed $1/driver-google-takeout databoxsystems2/driver-google-takeout
 seed $1/app-twitter-sentiment databoxsystems2/app-twitter-sentiment
