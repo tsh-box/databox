@@ -2,25 +2,25 @@
 {
     "Username":"",
      "AccessToken": "",
-	"MainRepo": ["tsh2","databox"],
+	"MainRepo": ["tsh-box","databox"],
 	"CoreRepos":[
-		["tsh2","core-container-manager"],
-		["tsh2","core-arbiter"],
-		["tsh2","core-export-service"],
-		["tsh2","core-network"],
-		["tsh2","core-store"],
-		["tsh2","lib-node-databox"],
-		["tsh2","lib-go-databox"]
+		["tsh-box","core-container-manager"],
+		["tsh-box","core-arbiter"],
+		["tsh-box","core-export-service"],
+		["tsh-box","core-network"],
+		["tsh-box","core-store"],
+		["tsh-box","lib-node-databox"],
+		["tsh-box","lib-go-databox"]
 	],
 	"OtherRepos": [
-		["tsh2","app-os-monitor"],
-		["tsh2","app-light-graph"],
-		["tsh2","app-twitter-sentiment"],
-		["tsh2","driver-os-monitor"],
-		["tsh2","driver-sensingkit"],
-		["tsh2","driver-google-takeout"],
-		["tsh2","driver-tplink-smart-plug"],
-		["tsh2","driver-twitter"],
-		["tsh2","driver-phillips-hue"]
+		["tsh-box","app-os-monitor"],
+		["tsh-box","app-light-graph"],
+		["tsh-box","app-twitter-sentiment"],
+		["tsh-box","driver-os-monitor"],
+		["tsh-box","driver-sensingkit"],
+		["tsh-box","driver-google-takeout"],
+		["tsh-box","driver-tplink-smart-plug"],
+		["tsh-box","driver-twitter"],
+		["tsh-box","driver-phillips-hue"]
 	]
 }
