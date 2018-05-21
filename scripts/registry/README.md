@@ -1,4 +1,4 @@
-# Mirror databoxsystems2 from docker hub
+# Mirror tshdataboxsystems2 from docker hub
 
 When running demos and hack days there can be issues with external network connectivity. Instilling databox and the SDK requires around 3GB per install.
 

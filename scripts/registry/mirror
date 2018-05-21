@@ -28,20 +28,20 @@ clone () {
     docker push $2
 }
 
-clone databoxsystems2/driver-os-monitor $1/driver-os-monitor
-clone databoxsystems2/driver-twitter $1/driver-twitter
-clone databoxsystems2/driver-sensingkit $1/driver-sensingkit
-clone databoxsystems2/app-light-graph $1/app-light-graph
-clone databoxsystems2/arbiter:${DBOX_VER} $1/arbiter:${DBOX_VER}
-clone databoxsystems2/container-manager:${DBOX_VER} $1/container-manager:${DBOX_VER}
-clone databoxsystems2/export-service:${DBOX_VER} $1/export-service:${DBOX_VER}
-clone databoxsystems2/app-server $1/app-server
-clone databoxsystems2/driver-google-takeout $1/driver-google-takeout
-clone databoxsystems2/app-twitter-sentiment $1/app-twitter-sentiment
-clone databoxsystems2/base-image-ocaml $1/base-image-ocaml
-clone databoxsystems2/driver-phillips-hue $1/driver-phillips-hue
-clone databoxsystems2/app-os-monitor $1/app-os-monitor
-clone databoxsystems2/driver-tplink-smart-plug $1/driver-tplink-smart-plug
+clone tshdataboxsystems2/driver-os-monitor $1/driver-os-monitor
+clone tshdataboxsystems2/driver-twitter $1/driver-twitter
+clone tshdataboxsystems2/driver-sensingkit $1/driver-sensingkit
+clone tshdataboxsystems2/app-light-graph $1/app-light-graph
+clone tshdataboxsystems2/arbiter:${DBOX_VER} $1/arbiter:${DBOX_VER}
+clone tshdataboxsystems2/container-manager:${DBOX_VER} $1/container-manager:${DBOX_VER}
+clone tshdataboxsystems2/export-service:${DBOX_VER} $1/export-service:${DBOX_VER}
+clone tshdataboxsystems2/app-server $1/app-server
+clone tshdataboxsystems2/driver-google-takeout $1/driver-google-takeout
+clone tshdataboxsystems2/app-twitter-sentiment $1/app-twitter-sentiment
+clone tshdataboxsystems2/base-image-ocaml $1/base-image-ocaml
+clone tshdataboxsystems2/driver-phillips-hue $1/driver-phillips-hue
+clone tshdataboxsystems2/app-os-monitor $1/app-os-monitor
+clone tshdataboxsystems2/driver-tplink-smart-plug $1/driver-tplink-smart-plug
 clone node:alpine $1/node:alpine
 
 clone tlodge/databox-redis $1/databox-redis
