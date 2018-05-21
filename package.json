@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsh2/container-manager.git"
+    "url": "git+https://github.com/tsh-box/container-manager.git"
   },
   "keywords": [
     "docker",
@@ -25,9 +25,9 @@
   "author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tsh2/container-manager-js/issues"
+    "url": "https://github.com/tsh-box/container-manager-js/issues"
   },
-  "homepage": "https://github.com/tsh2/container-manager-js#readme",
+  "homepage": "https://github.com/tsh-box/container-manager-js#readme",
   "dependencies": {
     "dockerode": "^2.4.3",
     "jsonfile": "^3.0.0",

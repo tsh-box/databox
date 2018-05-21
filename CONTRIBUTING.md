@@ -6,8 +6,8 @@ sets out the process for contibuting.
 ## Reporting issues
 
 Found a problem? Got a feature request? Then plese open an issue on the main 
-[Databox repository](https://github.com/tsh2/databox/). First check that 
-[the issue database](https://github.com/tsh2/databox/issues)
+[Databox repository](https://github.com/tsh-box/databox/). First check that 
+[the issue database](https://github.com/tsh-box/databox/issues)
 doesn't already include that problem or suggestion before submitting.
 
 When reporting issues, always include:

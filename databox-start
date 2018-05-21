@@ -118,8 +118,8 @@ esac
 DOCKER_REPO=""
 DATABOX_VERSION=$(<./Version)
 DATABOX_CORE_IMAGE_VERSION=$(<./Version)
-# use images from https://hub.docker.com/r/databoxsystems2/
-DOCKER_REPO="databoxsystems2/"
+# use images from https://hub.docker.com/r/tshdataboxsystems2/
+DOCKER_REPO="tshdataboxsystems2/"
 if [ "$DEV" == "1" ]
 then
   DOCKER_REPO=""
@@ -128,7 +128,7 @@ then
 fi
 if [ "$LATEST" == "1" ]
 then
-  DOCKER_REPO="databoxsystems2/"
+  DOCKER_REPO="tshdataboxsystems2/"
   DATABOX_CORE_IMAGE_VERSION="latest"
   DATABOX_VERSION="latest"
 fi
